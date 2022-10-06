@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+
+<div class="container-fluid  slider px-0">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/static/ed21.jpg " class="d-block w-100" alt="..." width="100%" height="400">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 color:"">Welcome to the EDTECH</h3>
+            <p>Learn the Fundamentals of Technology In This Complete Introductory Course and Start Your Business as a Web Developer.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/static/pdjango.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/static/ed5.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> 
+    </div>
+</div>
+<br/>
+
+<div class="container my-3">
+  <h3 class="my-2 text-center"> From Learning to Interning </h3>
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+  <div class="col">
+    <div class="card shadow-sm">
+      <img src="/static/pdango.jpg" class="d-block w-100" alt="...">
+      <div class="card-body">
+        <p class="card-text">Django is a high-level Python Web framework that encourages rapid development and clean pragmatic design.</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+          </div>
+          <small class="text-muted">Demo</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card shadow-sm">
+      <img src="/static/htmlcss.jpg" class="d-block w-100" alt="...">
+      <div class="card-body">
+        <p class="card-text">Study HTML & CSS I HTML & CSS are languages used to build and design the appearances of your websites. Let's learn the fundamentals of web programming.</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+          </div>
+          <small class="text-muted">Demo</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card shadow-sm">
+      <img src="/static/java.png" class="d-block w-100" alt="...">
+      <div class="card-body">
+        <p class="card-text">Java is a simple language: Java is easy to learn and its syntax is clear and concise. It is based on C++ (so it is easier for programmers who know C++).</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+          </div>
+          <small class="text-muted">Demo</small>
+        </div>
+      </div>
+    </div>
+  </div>
+ {% comment %} <div>
+  <video src="D:\python tutorial\getoppti.mp4"> My Video </video>
+</div> {% endcomment %}
+{% endblock body %}
+{% comment %} <body>
+  <img src="/static/ed32.jpg" class="img-fluid" alt="random image">
+</body> {% endcomment %}
